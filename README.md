@@ -20,16 +20,3 @@ LLMs, such as OpenAI's GPT-3, have proven to be powerful tools in transforming i
 
 ## Dataset link
 https://www.kaggle.com/datasets/venkatasubramanian/automatic-ticket-classification​
-
-## Usage
-[Provide examples and instructions on how to use your ticket classification system.]
-
-## Contributing
-[Explain how others can contribute to your project, including guidelines for pull requests and code reviews.]
-
-## License
-[Specify the license under which your project is distributed.]
-
-## Acknowledgments
-[Give credit to any resources, libraries, or individuals who have inspired or assisted in your project.]
-
