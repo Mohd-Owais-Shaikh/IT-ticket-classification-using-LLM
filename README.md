@@ -27,7 +27,7 @@ https://www.kaggle.com/datasets/venkatasubramanian/automatic-ticket-classificati
 
 ##### Classes
 
-We have 17 different classes available in the target variable. They are listed below.
+We have 5 different classes available in the target variable. They are listed below.
 •	Credit card or prepaid card
 
 •	Checking or savings account
@@ -41,34 +41,3 @@ We have 17 different classes available in the target variable. They are listed b
 •	Bank account or service
 
 •	Debt collection
-
-•	Money transfer, virtual currency, or money service
-
-•	Vehicle loan or lease
-
-•	Consumer Loan
-
-•	Student loan
-
-•	Money transfers
-
-•	Payday loan, title loan, or personal loan
-
-•	Credit reporting
-
-•	Other financial service
-
-•	Prepaid card
-
-•	Payday loan
-
-Test Split: 20%
-Train Split: 80%
-
-#### Data Modeling and Accuracy
-
-Logistic Regression: 79.80 %
-
-Random Forest: 74 %
-
-Bert: 89%
