@@ -64,3 +64,11 @@ We have 17 different classes available in the target variable. They are listed b
 
 Test Split: 20%
 Train Split: 80%
+
+#### Data Modeling and Accuracy
+
+Logistic Regression: 79.80 %
+
+Random Forest: 74 %
+
+Bert: 89%
