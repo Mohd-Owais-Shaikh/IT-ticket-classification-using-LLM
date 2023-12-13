@@ -25,7 +25,7 @@ The data set is collected from Kaggle.
 https://www.kaggle.com/datasets/venkatasubramanian/automatic-ticket-classification
 
 
-Classes
+##### Classes
 
 We have 17 different classes available in the target variable. They are listed below.
 •	Credit card or prepaid card
