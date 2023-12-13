@@ -5,7 +5,6 @@
 - Ashutosh Joshi
 - Amulya Potluri
 
-## Project Proposal
 
 ### Introduction
 In IT sector, most of the issues or bugs are usually solved through a ticketing system. There are several ways to raise a ticket. It can be through call using helpline number, informing the helpdesk, or filling a ticket form. Tickets are usually raised if there is anything wrong with the functionality, existing system, missing data, name change, components missing on a page, etc. These issues may be simple or complex but both types of issues can be fixed when a ticket is raised for them. Sometimes, one issue may end up creating one more issue. Issues are sometimes more complex to deal with if they are delayed. So, most of the IT support teams are usually loaded with lots of tickets. Each ticket has a specified team to resolve and time frame to be fixed. To tackle this challenge, we're considering using Natural Language Processing (NLP) technology, which enables computers to understand and process human language, to streamline ticket routing.
