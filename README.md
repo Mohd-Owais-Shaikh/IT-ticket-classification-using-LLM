@@ -24,7 +24,26 @@ The primary objective of this project is to create an advanced ticket classifica
 The data set is collected from Kaggle.
 https://www.kaggle.com/datasets/venkatasubramanian/automatic-ticket-classification
 
+### Implementation
+	### Description of Model Implementation  
+		Traditional NLP Model Implementation 
+			All our models follow the typical classification setup. The features are processed and as 
+			mentioned in the TF-IDF section, we have one combined input feature of Complaints as a sparse matrix 
+			and our target variable is the Products. Random forest is a powerful ensemble technique that iteratively 
+			builds an additive model by minimizing the expected value of a given loss function, refining its 
+			predictions with a series of weak learners, typically decision trees, to achieve high accuracy and 
+			efficiency in various machine learning tasks. 
 
+		BERT Large Language Model Implementation. 
+			Further we fine-tuned an LLM from Hugging-Face called BERT-based-uncased to evaluate the AUC and improve classification. In this process, 
+			the BERT based Uncased model for classification was fine-tuned on our dataset to produce a few shots 
+			learning classification. Due to the compute resources limitation, we had to choose the retrain the model 
+			over our modified dataset with 5 categories of classes instead of 17 which still required a lot of 
+			computing resources. To implement this, we used Google Colab Pro with T4 GPU. It used 96.4 compute 
+			units. The total training time was 3 hours. The model was pre-trained 7 billion parameters. For this approach, we 
+			specifically chose the sequence classification model of Tensorflow python library which has been pre
+			trained on book corpus, a dataset consisting of 11, 038 unpublished books and English Wikipedia. We 
+			have trained the model on 30 epochs and the observed loss is negligible.
 ##### Classes
 
 We have 5 different classes available in the target variable. They are listed below.
@@ -41,3 +60,19 @@ We have 5 different classes available in the target variable. They are listed be
 •	Bank account or service
 
 •	Debt collection
+
+#### Results
+
+BERT showed improvement in accuracy and performance by 7% over Logistic Regression.
+Moving to the advantages of BERT, BERT provides contextual understanding by considering the entire 
+context of the input text. This is particularly advantageous in understanding the nuanced language often 
+present in IT tickets, leading to improved classification accuracy.The other advantage is BERT captures 
+semantic representations of words and phrases, allowing the model to understand the meaning behind 
+the text. This is crucial for handling IT tickets where specific terms and phrases may carry different 
+meanings based on the context. 
+On other hand, BERT models are computationally expensive, both in terms of training and 
+inference. Logistic Regression, being a simpler model, is computationally more efficient. BERT models 
+require substantial resources, including powerful GPUs, for efficient training and inference. Logistic 
+Regression is more lightweight in terms of resource requirements. 
+BERT Language Models exhibit superior performance in IT ticket classification due to their 
+contextual understanding and semantic representations, they come with computational challenges. 
