@@ -1,4 +1,5 @@
 # IT Ticket Classification System
+Refer Project Report for detailed documentation.
 
 ## Team Members
 - Owais Shaikh
